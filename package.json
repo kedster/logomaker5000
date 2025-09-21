@@ -1,0 +1,38 @@
+{
+  "name": "logomaker5000",
+  "version": "1.0.0",
+  "description": "A modern, web-based logo creation tool that combines intuitive design controls with AI-powered enhancement capabilities. Create professional logos in minutes with customizable templates, shapes, and intelligent design suggestions.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "logo",
+    "design",
+    "svg",
+    "ai",
+    "graphics"
+  ],
+  "author": "",
+  "license": "ISC",
+  "jest": {
+    "testEnvironment": "jsdom",
+    "setupFilesAfterEnv": [
+      "<rootDir>/tests/setup.js"
+    ],
+    "testMatch": [
+      "<rootDir>/tests/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "logomaker-core.js",
+      "!node_modules/**"
+    ]
+  },
+  "devDependencies": {
+    "jest": "^30.1.3",
+    "jest-environment-jsdom": "^30.1.2",
+    "jsdom": "^27.0.0"
+  }
+}
