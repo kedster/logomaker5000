@@ -378,3 +378,17 @@
 
         // Initialize
         updateLogo();
+
+        // Mobile Navigation Toggle
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const toggleText = document.querySelector('.toggle-text');
+            
+            sidebar.classList.toggle('collapsed');
+            
+            if (sidebar.classList.contains('collapsed')) {
+                toggleText.textContent = 'Show Controls';
+            } else {
+                toggleText.textContent = 'Hide Controls';
+            }
+        }

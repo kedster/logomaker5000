@@ -8,7 +8,14 @@
 </head>
 <body>
     <div class="container">
-        <div class="sidebar">
+        <div class="mobile-nav">
+            <button class="mobile-toggle" onclick="toggleSidebar()">
+                <span class="toggle-icon">☰</span>
+                <span class="toggle-text">Controls</span>
+            </button>
+        </div>
+        
+        <div class="sidebar" id="sidebar">
             <div class="section">
                 <h3>Templates</h3>
                 <div class="template-grid">
