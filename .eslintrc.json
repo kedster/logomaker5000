@@ -1,0 +1,29 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+  "globals": {
+    "logoConfig": "readonly",
+    "currentShape": "readonly"
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-undef": "error",
+    "semi": ["error", "always"],
+    "no-console": "warn",
+    "eqeqeq": "warn",
+    "curly": "warn",
+    "no-trailing-spaces": "warn",
+    "no-redeclare": "warn",
+    "no-case-declarations": "warn",
+    "indent": "off",
+    "quotes": "off",
+    "brace-style": "off",
+    "comma-dangle": "off"
+  }
+}

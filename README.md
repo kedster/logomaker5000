@@ -60,11 +60,31 @@ git clone https://github.com/kedster/logomaker5000.git
 # Navigate to the directory  
 cd logomaker5000
 
+# Install development dependencies (optional)
+npm install
+
 # Serve locally (optional)
 python3 -m http.server 8000
+# or use npm script
+npm run start
 
 # Open in browser
 open http://localhost:8000
+```
+
+### Development & Testing
+```bash
+# Install development dependencies
+npm install
+
+# Run linting
+npm run lint
+
+# Run tests
+npm run test
+
+# Format code
+npm run format
 ```
 
 ## 💡 How It Works
@@ -79,6 +99,18 @@ All processing happens client-side except for AI enhancement, making it fast, se
 - **Graphics**: SVG for scalable vector graphics
 - **AI Integration**: OpenAI GPT-4 API
 - **Export**: Canvas API for PNG generation, SVG serialization
+- **CI/CD**: GitHub Actions for automated testing and quality assurance
+
+## 🔄 Continuous Integration
+
+This project uses GitHub Actions for automated testing and code quality assurance. The CI pipeline includes:
+
+- **Code Quality**: ESLint (JavaScript), Stylelint (CSS), HTML validation, Prettier formatting
+- **Functionality Tests**: Browser-based tests using Playwright
+- **Security Audit**: Checks for common vulnerabilities and hardcoded secrets  
+- **Deployment Readiness**: Verifies all required files and static serving
+
+For detailed CI documentation, see [docs/CI.md](docs/CI.md).
 
 ## 📋 Requirements
 
