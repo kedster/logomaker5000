@@ -366,3 +366,181 @@ input[type="color"]:focus {
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
+
+        /* Responsive Design */
+        
+        /* Mobile Navigation */
+        .mobile-nav {
+            display: none;
+            background: #667eea;
+            padding: 10px 20px;
+            border-bottom: 1px solid rgba(255,255,255,0.2);
+        }
+        
+        .mobile-toggle {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 8px 0;
+        }
+        
+        .toggle-icon {
+            font-size: 18px;
+        }
+        
+        .sidebar.collapsed {
+            display: none;
+        }
+        
+        /* Mobile-First Approach - Base styles for mobile */
+        @media screen and (max-width: 768px) {
+            .mobile-nav {
+                display: block;
+            }
+            
+            .container {
+                flex-direction: column;
+                height: auto;
+                min-height: 100vh;
+            }
+            
+            .sidebar {
+                width: 100%;
+                order: 2;
+                max-height: 60vh;
+                overflow-y: auto;
+                border-right: none;
+                border-top: 1px solid #e9ecef;
+            }
+            
+            .main-canvas {
+                order: 1;
+                min-height: 50vh;
+                padding: 20px;
+                flex: none;
+            }
+            
+            .canvas-area {
+                width: min(350px, 90vw);
+                height: min(350px, 90vw);
+            }
+            
+            .export-buttons {
+                position: static;
+                margin-top: 20px;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            
+            .ai-section {
+                margin: 20px 0;
+            }
+            
+            .api-key-group {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            /* Make template grid single column on very small screens */
+            .template-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 8px;
+            }
+            
+            /* Optimize shape grid for mobile */
+            .shape-grid {
+                grid-template-columns: repeat(6, 1fr);
+                gap: 6px;
+            }
+            
+            /* Better touch targets */
+            .template-item, .shape-item {
+                min-height: 44px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+            
+            .btn {
+                min-height: 44px;
+                padding: 12px 16px;
+            }
+        }
+        
+        /* Tablet styles */
+        @media screen and (min-width: 769px) and (max-width: 1024px) {
+            .container {
+                flex-direction: row;
+            }
+            
+            .sidebar {
+                width: 280px;
+                min-width: 280px;
+            }
+            
+            .canvas-area {
+                width: 350px;
+                height: 350px;
+            }
+            
+            .main-canvas {
+                padding: 15px;
+            }
+            
+            .export-buttons {
+                bottom: 15px;
+                right: 15px;
+            }
+        }
+        
+        /* Desktop styles (default, but explicitly defined for clarity) */
+        @media screen and (min-width: 1025px) {
+            .container {
+                flex-direction: row;
+                max-width: 1400px;
+                margin: 0 auto;
+            }
+            
+            .sidebar {
+                width: 300px;
+            }
+            
+            .canvas-area {
+                width: 400px;
+                height: 400px;
+            }
+        }
+        
+        /* Additional responsive improvements */
+        @media screen and (max-width: 480px) {
+            .template-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .template-item {
+                padding: 12px;
+                flex-direction: row;
+                gap: 15px;
+                text-align: left;
+            }
+            
+            .ai-input-group textarea {
+                min-height: 60px;
+            }
+            
+            .export-buttons {
+                flex-direction: column;
+                width: 100%;
+                gap: 8px;
+            }
+            
+            .export-buttons .btn {
+                width: 100%;
+            }
+        }
