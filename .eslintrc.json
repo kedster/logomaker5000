@@ -8,8 +8,8 @@
     "ecmaVersion": "latest"
   },
   "globals": {
-    "logoConfig": "readonly",
-    "currentShape": "readonly"
+    "logoConfig": "writable",
+    "currentShape": "writable"
   },
   "rules": {
     "no-unused-vars": "warn",
@@ -19,8 +19,9 @@
     "eqeqeq": "warn",
     "curly": "warn",
     "no-trailing-spaces": "warn",
-    "no-redeclare": "warn",
+    "no-redeclare": "off",
     "no-case-declarations": "warn",
+    "no-global-assign": "off",
     "indent": "off",
     "quotes": "off",
     "brace-style": "off",

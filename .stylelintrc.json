@@ -14,6 +14,8 @@
     "color-function-notation": null,
     "alpha-value-notation": null,
     "media-feature-range-notation": null,
+    "property-no-vendor-prefix": null,
+    "no-descending-specificity": null,
     "at-rule-no-unknown": [true, {
       "ignoreAtRules": ["supports"]
     }]

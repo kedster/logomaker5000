@@ -1,5 +1,7 @@
 # LogoMaker5000 🎨
 
+[![Continuous Integration](https://github.com/kedster/logomaker5000/actions/workflows/ci.yml/badge.svg)](https://github.com/kedster/logomaker5000/actions/workflows/ci.yml)
+
 A modern, web-based logo creation tool that combines intuitive design controls with AI-powered enhancement capabilities. Create professional logos in minutes with customizable templates, shapes, and intelligent design suggestions.
 
 ![LogoMaker5000 Interface](https://github.com/user-attachments/assets/34913ac3-beb1-48f6-8ea4-7250bef10644)
