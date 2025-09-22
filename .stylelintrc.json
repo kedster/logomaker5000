@@ -1,0 +1,23 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "color-no-invalid-hex": true,
+    "indentation": null,
+    "string-quotes": null,
+    "color-hex-case": null,
+    "color-hex-length": null,
+    "declaration-colon-space-after": null,
+    "declaration-colon-space-before": null,
+    "declaration-block-trailing-semicolon": null,
+    "rule-empty-line-before": null,
+    "selector-pseudo-element-colon-notation": null,
+    "color-function-notation": null,
+    "alpha-value-notation": null,
+    "media-feature-range-notation": null,
+    "property-no-vendor-prefix": null,
+    "no-descending-specificity": null,
+    "at-rule-no-unknown": [true, {
+      "ignoreAtRules": ["supports"]
+    }]
+  }
+}
