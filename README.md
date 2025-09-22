@@ -185,6 +185,12 @@ python3 --version  # Should show Python 3.6+
 # Solution: Use web-safe fonts or import Google Fonts
 ```
 
+## 💡 How It Works
+
+LogoMaker5000 uses pure HTML5, CSS3, and JavaScript to provide a responsive design interface. The AI enhancement feature leverages OpenAI's GPT-4 model to analyze your business context and current logo design, providing specific improvement suggestions with professional reasoning.
+
+All processing happens client-side except for AI enhancement, making it fast, secure, and privacy-friendly for basic logo creation.
+
 ## 🔧 Development Workflow
 
 ### Project Structure
