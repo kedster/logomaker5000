@@ -1,5 +1,7 @@
 # LogoMaker5000 🎨
 
+[![Continuous Integration](https://github.com/kedster/logomaker5000/actions/workflows/ci.yml/badge.svg)](https://github.com/kedster/logomaker5000/actions/workflows/ci.yml)
+
 A modern, web-based logo creation tool that combines intuitive design controls with AI-powered enhancement capabilities. Create professional logos in minutes with customizable templates, shapes, and intelligent design suggestions.
 
 ![LogoMaker5000 Interface](https://github.com/user-attachments/assets/34913ac3-beb1-48f6-8ea4-7250bef10644)
@@ -71,12 +73,17 @@ git clone https://github.com/kedster/logomaker5000.git
 # Navigate to the directory  
 cd logomaker5000
 
+
 # Start local server (recommended for development)
+
 python3 -m http.server 8000
+# or use npm script
+npm run start
 
 # Open in browser
 open http://localhost:8000
 ```
+
 
 #### Alternative Servers
 If Python is not available, use these alternatives:
@@ -183,6 +190,7 @@ python3 --version  # Should show Python 3.6+
 ```bash
 # Some fonts may not be available on all systems
 # Solution: Use web-safe fonts or import Google Fonts
+
 ```
 
 ## 💡 How It Works
@@ -330,6 +338,7 @@ console.timeEnd('logo-update');
 
 ## 🛠️ Technology Stack
 
+
 ### Core Technologies
 
 | Technology | Version | Purpose | Benefits |
@@ -359,6 +368,7 @@ console.timeEnd('logo-update');
 |------------|---------|---------|----------|
 | **Python HTTP Server** | 3.x | Local development server | Built-in, zero-configuration, cross-platform |
 | **Git** | Any recent version | Version control | Collaboration, history tracking, branching |
+
 
 ## 📋 Requirements
 

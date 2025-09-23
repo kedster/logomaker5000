@@ -1,0 +1,49 @@
+{
+  "name": "logomaker5000",
+  "version": "1.0.0",
+  "description": "A modern, web-based logo creation tool that combines intuitive design controls with AI-powered enhancement capabilities",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "test": "playwright test",
+    "lint": "eslint script.js && stylelint styles.css",
+    "lint:fix": "eslint script.js --fix && stylelint styles.css --fix",
+    "format": "prettier --write \"*.{html,css,js,md}\"",
+    "format:check": "prettier --check \"*.{html,css,js,md}\"",
+    "validate:html": "html-validator-cli --file index.html",
+    "ci": "npm run lint && npm run validate:html && npm run test",
+    "dev": "python3 -m http.server 8000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kedster/logomaker5000.git"
+  },
+  "keywords": [
+    "logo",
+    "design",
+    "svg",
+    "web-app",
+    "frontend",
+    "ai-powered"
+  ],
+  "author": "kedster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kedster/logomaker5000/issues"
+  },
+  "homepage": "https://github.com/kedster/logomaker5000#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.40.0",
+    "eslint": "^8.55.0",
+    "html-validator-cli": "^7.0.1",
+    "playwright": "^1.40.0",
+    "prettier": "^3.1.0",
+    "stylelint": "^15.11.0",
+    "stylelint-config-standard": "^34.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
