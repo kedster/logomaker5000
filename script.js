@@ -392,3 +392,12 @@
                 toggleText.textContent = 'Hide Controls';
             }
         }
+
+        // Main Navigation Toggle
+        function toggleMainNav() {
+            const nav = document.querySelector('.main-nav');
+            const toggle = document.querySelector('.mobile-nav-toggle');
+            
+            nav.classList.toggle('active');
+            toggle.classList.toggle('active');
+        }
