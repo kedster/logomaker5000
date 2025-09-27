@@ -3,16 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Logo Maker Pro</title>
+    
+    <!-- Primary Meta Tags -->
+    <title>Logo Maker Pro - Create Professional Logos with AI-Powered Design Tools</title>
+    <meta name="title" content="Logo Maker Pro - Create Professional Logos with AI-Powered Design Tools">
+    <meta name="description" content="Design professional logos instantly with Logo Maker Pro. Features AI-powered enhancements, customizable templates, SVG/PNG export, and intuitive design tools. Create stunning logos for your business in minutes.">
+    <meta name="keywords" content="logo maker, logo design, AI logo generator, professional logos, SVG logos, PNG logos, business branding, logo templates, custom logos, online logo creator">
+    <meta name="author" content="Seth Keddy">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://kedster.github.io/logomaker5000/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kedster.github.io/logomaker5000/">
+    <meta property="og:title" content="Logo Maker Pro - Create Professional Logos with AI-Powered Design Tools">
+    <meta property="og:description" content="Design professional logos instantly with Logo Maker Pro. Features AI-powered enhancements, customizable templates, SVG/PNG export, and intuitive design tools. Create stunning logos for your business in minutes.">
+    <meta property="og:image" content="https://kedster.github.io/logomaker5000/logo-preview.png">
+    <meta property="og:site_name" content="Logo Maker Pro">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://kedster.github.io/logomaker5000/">
+    <meta property="twitter:title" content="Logo Maker Pro - Create Professional Logos with AI-Powered Design Tools">
+    <meta property="twitter:description" content="Design professional logos instantly with Logo Maker Pro. Features AI-powered enhancements, customizable templates, SVG/PNG export, and intuitive design tools.">
+    <meta property="twitter:image" content="https://kedster.github.io/logomaker5000/logo-preview.png">
+    <meta property="twitter:creator" content="@sethkeddy">
+    
+    <!-- Favicon and App Icons -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAzMiAzMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSIxNiIgY3k9IjE2IiByPSIxNCIgZmlsbD0iIzY2N2VlYSIvPjx0ZXh0IHg9IjE2IiB5PSIyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZmlsbD0id2hpdGUiIGZvbnQtZmFtaWx5PSJBcmlhbCIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9ImJvbGQiPkw8L3RleHQ+PC9zdmc+">
+    <link rel="apple-touch-icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgwIiBoZWlnaHQ9IjE4MCIgdmlld0JveD0iMCAwIDE4MCAxODAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGNpcmNsZSBjeD0iOTAiIGN5PSI5MCIgcj0iODAiIGZpbGw9IiM2NjdlZWEiLz48dGV4dCB4PSI5MCIgeT0iMTA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmaWxsPSJ3aGl0ZSIgZm9udC1mYW1pbHk9IkFyaWFsIiBmb250LXNpemU9IjY0IiBmb250LXdlaWdodD0iYm9sZCI+TDwvdGV4dD48L3N2Zz4=">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Logo Maker Pro",
+      "description": "Design professional logos instantly with Logo Maker Pro. Features AI-powered enhancements, customizable templates, SVG/PNG export, and intuitive design tools.",
+      "url": "https://kedster.github.io/logomaker5000/",
+      "author": {
+        "@type": "Person",
+        "name": "Seth Keddy",
+        "url": "https://www.linkedin.com/in/seth-keddy/"
+      },
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web Browser",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "AI-powered logo enhancement",
+        "Customizable logo templates",
+        "SVG and PNG export",
+        "Real-time preview",
+        "Mobile responsive design",
+        "Professional design tools"
+      ]
+    }
+    </script>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="site-header">
+    <header class="site-header" role="banner">
         <div class="header-content">
             <div class="logo-brand">
                 <h1>Logo Maker Pro</h1>
             </div>
-            <nav class="main-nav">
+            <nav class="main-nav" role="navigation" aria-label="Main navigation">
                 <ul class="nav-list">
                     <li><a href="#home" class="nav-link active">Home</a></li>
                     <li><a href="#about" class="nav-link">About</a></li>
@@ -20,104 +81,107 @@
                     <li><a href="#privacy" class="nav-link">Privacy Policy</a></li>
                 </ul>
             </nav>
-            <button class="mobile-nav-toggle" onclick="toggleMainNav()">
+            <button class="mobile-nav-toggle" onclick="toggleMainNav()" aria-label="Toggle navigation menu" aria-expanded="false">
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
                 <span class="hamburger-line"></span>
             </button>
         </div>
     </header>
-    <div class="container">
+    
+    <main class="container" role="main">
         <div class="mobile-nav">
-            <button class="mobile-toggle" onclick="toggleSidebar()">
+            <button class="mobile-toggle" onclick="toggleSidebar()" aria-label="Toggle design controls">
                 <span class="toggle-icon">☰</span>
                 <span class="toggle-text">Controls</span>
             </button>
         </div>
         
-        <div class="sidebar" id="sidebar">
-            <div class="section">
-                <h3>Templates</h3>
-                <div class="template-grid">
-                    <div class="template-item active" onclick="applyTemplate('modern')">
-                        <svg width="40" height="40" viewBox="0 0 100 100">
+        <aside class="sidebar" id="sidebar" role="complementary" aria-label="Design controls">
+            <section class="section">
+                <h2>Templates</h2>
+                <div class="template-grid" role="group" aria-label="Logo templates">
+                    <button class="template-item active" onclick="applyTemplate('modern')" aria-label="Apply modern template">
+                        <svg width="40" height="40" viewBox="0 0 100 100" role="img" aria-label="Modern template preview">
                             <circle cx="50" cy="50" r="45" fill="#667eea" stroke="#fff" stroke-width="4"/>
                             <text x="50" y="60" text-anchor="middle" fill="white" font-family="Arial" font-size="30" font-weight="bold">L</text>
                         </svg>
                         <div>Modern</div>
-                    </div>
-                    <div class="template-item" onclick="applyTemplate('minimal')">
-                        <svg width="40" height="40" viewBox="0 0 100 100">
+                    </button>
+                    <button class="template-item" onclick="applyTemplate('minimal')" aria-label="Apply minimal template">
+                        <svg width="40" height="40" viewBox="0 0 100 100" role="img" aria-label="Minimal template preview">
                             <rect x="10" y="10" width="80" height="80" fill="none" stroke="#333" stroke-width="3"/>
                             <text x="50" y="60" text-anchor="middle" fill="#333" font-family="Arial" font-size="28">L</text>
                         </svg>
                         <div>Minimal</div>
-                    </div>
-                    <div class="template-item" onclick="applyTemplate('tech')">
-                        <svg width="40" height="40" viewBox="0 0 100 100">
+                    </button>
+                    <button class="template-item" onclick="applyTemplate('tech')" aria-label="Apply tech template">
+                        <svg width="40" height="40" viewBox="0 0 100 100" role="img" aria-label="Tech template preview">
                             <polygon points="50,10 90,90 10,90" fill="#764ba2"/>
                             <text x="50" y="70" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">L</text>
                         </svg>
                         <div>Tech</div>
-                    </div>
-                    <div class="template-item" onclick="applyTemplate('creative')">
-                        <svg width="40" height="40" viewBox="0 0 100 100">
+                    </button>
+                    <button class="template-item" onclick="applyTemplate('creative')" aria-label="Apply creative template">
+                        <svg width="40" height="40" viewBox="0 0 100 100" role="img" aria-label="Creative template preview">
                             <ellipse cx="50" cy="50" rx="45" ry="25" fill="#ff6b6b" transform="rotate(30 50 50)"/>
                             <text x="50" y="60" text-anchor="middle" fill="white" font-family="Arial" font-size="26" font-weight="bold">L</text>
                         </svg>
                         <div>Creative</div>
-                    </div>
+                    </button>
                 </div>
-            </div>
+            </section>
 
-            <div class="section">
-                <h3>🤖 AI Enhancement</h3>
+            <section class="section">
+                <h2>🤖 AI Enhancement</h2>
+            </section>
 
-            <div class="section">
-                <h3>Shape</h3>
-                <div class="shape-grid">
-                    <div class="shape-item active" onclick="setShape('circle')">
-                        <svg class="icon-preview">
+            <section class="section">
+                <h2>Shape</h2>
+                <div class="shape-grid" role="group" aria-label="Logo shapes">
+                    <button class="shape-item active" onclick="setShape('circle')" aria-label="Select circle shape">
+                        <svg class="icon-preview" role="img" aria-label="Circle shape">
                             <circle cx="12" cy="12" r="10" fill="currentColor"/>
                         </svg>
-                    </div>
-                    <div class="shape-item" onclick="setShape('square')">
-                        <svg class="icon-preview">
+                    </button>
+                    <button class="shape-item" onclick="setShape('square')" aria-label="Select square shape">
+                        <svg class="icon-preview" role="img" aria-label="Square shape">
                             <rect x="2" y="2" width="20" height="20" fill="currentColor"/>
                         </svg>
-                    </div>
-                    <div class="shape-item" onclick="setShape('triangle')">
-                        <svg class="icon-preview">
+                    </button>
+                    <button class="shape-item" onclick="setShape('triangle')" aria-label="Select triangle shape">
+                        <svg class="icon-preview" role="img" aria-label="Triangle shape">
                             <polygon points="12,2 22,22 2,22" fill="currentColor"/>
                         </svg>
-                    </div>
-                    <div class="shape-item" onclick="setShape('diamond')">
-                        <svg class="icon-preview">
+                    </button>
+                    <button class="shape-item" onclick="setShape('diamond')" aria-label="Select diamond shape">
+                        <svg class="icon-preview" role="img" aria-label="Diamond shape">
                             <polygon points="12,2 22,12 12,22 2,12" fill="currentColor"/>
                         </svg>
-                    </div>
-                    <div class="shape-item" onclick="setShape('hexagon')">
-                        <svg class="icon-preview">
+                    </button>
+                    <button class="shape-item" onclick="setShape('hexagon')" aria-label="Select hexagon shape">
+                        <svg class="icon-preview" role="img" aria-label="Hexagon shape">
                             <polygon points="12,2 20,7 20,17 12,22 4,17 4,7" fill="currentColor"/>
                         </svg>
-                    </div>
-                    <div class="shape-item" onclick="setShape('star')">
-                        <svg class="icon-preview">
+                    </button>
+                    <button class="shape-item" onclick="setShape('star')" aria-label="Select star shape">
+                        <svg class="icon-preview" role="img" aria-label="Star shape">
                             <polygon points="12,1 15,8 23,8 17,13 19,21 12,16 5,21 7,13 1,8 9,8" fill="currentColor"/>
                         </svg>
-                    </div>
+                    </button>
                 </div>
-            </div>
+            </section>
 
-            <div class="section">
-                <h3>Text</h3>
+            <section class="section">
+                <h2>Text</h2>
                 <div class="control-group">
                     <label for="companyText">Company Name</label>
-                    <input type="text" id="companyText" value="LOGO" oninput="updateLogo()" title="Enter company name" placeholder="Company Name">
+                    <input type="text" id="companyText" value="LOGO" oninput="updateLogo()" title="Enter company name" placeholder="Company Name" aria-describedby="companyText-help">
+                    <div id="companyText-help" class="sr-only">Enter your company or brand name for the logo</div>
                 </div>
                 <div class="control-group">
                     <label for="fontFamily">Font Family</label>
-                    <select id="fontFamily" onchange="updateLogo()" title="Select font family">
+                    <select id="fontFamily" onchange="updateLogo()" title="Select font family" aria-describedby="fontFamily-help">
                         <option value="Arial">Arial</option>
                         <option value="Helvetica">Helvetica</option>
                         <option value="Georgia">Georgia</option>
@@ -125,53 +189,63 @@
                         <option value="Courier New">Courier New</option>
                         <option value="Impact">Impact</option>
                     </select>
+                    <div id="fontFamily-help" class="sr-only">Choose the font style for your logo text</div>
                 </div>
                 <div class="control-group">
                     <label for="fontWeight">Font Weight</label>
-                    <select id="fontWeight" onchange="updateLogo()" title="Select font weight">
+                    <select id="fontWeight" onchange="updateLogo()" title="Select font weight" aria-describedby="fontWeight-help">
                         <option value="normal">Normal</option>
                         <option value="bold" selected>Bold</option>
                         <option value="lighter">Light</option>
                     </select>
+                    <div id="fontWeight-help" class="sr-only">Adjust the thickness of your logo text</div>
                 </div>
                 <div class="control-group">
                     <label for="fontSize">Font Size</label>
-                    <input type="range" id="fontSize" min="20" max="80" value="40" class="range-input" oninput="updateLogo()" title="Adjust font size">
+                    <input type="range" id="fontSize" min="20" max="80" value="40" class="range-input" oninput="updateLogo()" title="Adjust font size" aria-describedby="fontSize-help">
+                    <div id="fontSize-help" class="sr-only">Slide to change the size of your logo text</div>
                 </div>
-            </div>
+            </section>
 
-            <div class="section">
-                <h3>Colors</h3>
+            <section class="section">
+                <h2>Colors</h2>
                 <div class="control-group">
                     <label for="shapeColor">Shape Color</label>
-                    <input type="color" id="shapeColor" value="#667eea" class="color-picker" onchange="updateLogo()" title="Pick shape color">
+                    <input type="color" id="shapeColor" value="#667eea" class="color-picker" onchange="updateLogo()" title="Pick shape color" aria-describedby="shapeColor-help">
+                    <div id="shapeColor-help" class="sr-only">Choose the color for your logo shape</div>
                 </div>
                 <div class="control-group">
                     <label for="textColor">Text Color</label>
-                    <input type="color" id="textColor" value="#ffffff" class="color-picker" onchange="updateLogo()" title="Pick text color">
+                    <input type="color" id="textColor" value="#ffffff" class="color-picker" onchange="updateLogo()" title="Pick text color" aria-describedby="textColor-help">
+                    <div id="textColor-help" class="sr-only">Choose the color for your logo text</div>
                 </div>
                 <div class="control-group">
                     <label for="backgroundColor">Background</label>
-                    <input type="color" id="backgroundColor" value="#ffffff" class="color-picker" onchange="updateLogo()" title="Pick background color">
+                    <input type="color" id="backgroundColor" value="#ffffff" class="color-picker" onchange="updateLogo()" title="Pick background color" aria-describedby="backgroundColor-help">
+                    <div id="backgroundColor-help" class="sr-only">Choose the background color for your logo</div>
                 </div>
-            </div>
+            </section>
 
-            <div class="section">
-                <h3>Size & Position</h3>
+            <section class="section">
+                <h2>Size & Position</h2>
                 <div class="control-group">
                     <label for="shapeSize">Shape Size</label>
-                    <input type="range" id="shapeSize" min="60" max="180" value="120" class="range-input" oninput="updateLogo()" title="Adjust shape size">
+                    <input type="range" id="shapeSize" min="60" max="180" value="120" class="range-input" oninput="updateLogo()" title="Adjust shape size" aria-describedby="shapeSize-help">
+                    <div id="shapeSize-help" class="sr-only">Slide to adjust the size of your logo shape</div>
                 </div>
                 <div class="control-group">
                     <label for="textY">Text Position Y</label>
-                    <input type="range" id="textY" min="180" max="280" value="220" class="range-input" oninput="updateLogo()" title="Adjust text Y position">
+                    <input type="range" id="textY" min="180" max="280" value="220" class="range-input" oninput="updateLogo()" title="Adjust text Y position" aria-describedby="textY-help">
+                    <div id="textY-help" class="sr-only">Slide to move your text up or down</div>
                 </div>
-            </div>
-        </div>
+            </section>
+        </aside>
 
-        <div class="main-canvas">
+        <section class="main-canvas" role="main" aria-label="Logo design workspace">
             <div class="canvas-area">
-                <svg id="logoSvg" class="logo-preview" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                <svg id="logoSvg" class="logo-preview" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Logo preview - your designed logo will appear here">
+                    <title>Logo Preview</title>
+                    <desc>Live preview of your custom logo design with real-time updates</desc>
                     <defs>
                         <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
                             <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.2"/>
@@ -186,102 +260,125 @@
                 </svg>
             </div>
 
-            <div class="ai-section">
+            <section class="ai-section" aria-label="AI enhancement tools">
+                <h2 class="sr-only">AI Logo Enhancement</h2>
                 <div class="ai-input-group">
-                    <textarea id="businessDescription" placeholder="Describe your business (e.g., 'Tech startup focused on AI solutions for healthcare')" rows="3"></textarea>
+                    <label for="businessDescription" class="sr-only">Business Description</label>
+                    <textarea id="businessDescription" placeholder="Describe your business (e.g., 'Tech startup focused on AI solutions for healthcare')" rows="3" aria-describedby="businessDescription-help"></textarea>
+                    <div id="businessDescription-help" class="sr-only">Describe your business to get AI-powered logo suggestions</div>
                     <div class="api-key-group">
-                        <input type="password" id="apiKey" placeholder="Enter your OpenAI API Key" />
-                        <button class="btn btn-ai" onclick="enhanceWithAI()">✨ AI Enhance Logo</button>
+                        <label for="apiKey" class="sr-only">OpenAI API Key</label>
+                        <input type="password" id="apiKey" placeholder="Enter your OpenAI API Key" aria-describedby="apiKey-help" />
+                        <div id="apiKey-help" class="sr-only">Enter your OpenAI API key to enable AI enhancement features</div>
+                        <button class="btn btn-ai" onclick="enhanceWithAI()" aria-describedby="aiEnhance-help">✨ AI Enhance Logo</button>
+                        <div id="aiEnhance-help" class="sr-only">Click to get AI-powered suggestions for improving your logo</div>
                     </div>
                 </div>
-                <div id="aiSuggestions" class="ai-suggestions hidden"></div>
-            </div>
+                <div id="aiSuggestions" class="ai-suggestions hidden" role="region" aria-label="AI suggestions" aria-live="polite"></div>
+            </section>
 
-            <div class="export-buttons">
-                <button class="btn btn-secondary" onclick="downloadPNG()">Download PNG</button>
-                <button class="btn btn-primary" onclick="downloadSVG()">Download SVG</button>
-                <button class="btn btn-secondary" onclick="copyCSS()">Copy CSS</button>
-            </div>
-        </div>
-    </div>
+            <section class="export-buttons" aria-label="Export options">
+                <h2 class="sr-only">Export Your Logo</h2>
+                <button class="btn btn-secondary" onclick="downloadPNG()" aria-describedby="downloadPNG-help">Download PNG</button>
+                <div id="downloadPNG-help" class="sr-only">Download your logo as a PNG image file</div>
+                <button class="btn btn-primary" onclick="downloadSVG()" aria-describedby="downloadSVG-help">Download SVG</button>
+                <div id="downloadSVG-help" class="sr-only">Download your logo as a scalable SVG vector file</div>
+                <button class="btn btn-secondary" onclick="copyCSS()" aria-describedby="copyCSS-help">Copy CSS</button>
+                <div id="copyCSS-help" class="sr-only">Copy the CSS code for your logo to use on websites</div>
+            </section>
+        </section>
+    </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" role="contentinfo">
         <div class="footer-content">
-            <div class="footer-section">
+            <section class="footer-section">
                 <h3>Logo Maker Pro</h3>
                 <p>Create professional logos with ease using our AI-powered design tools.</p>
-            </div>
-            <div class="footer-section">
+            </section>
+            <section class="footer-section">
                 <h4>Quick Links</h4>
-                <ul class="footer-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#privacy">Privacy Policy</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
+                <nav aria-label="Footer navigation">
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footer-section">
                 <h4>Connect with Seth</h4>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/seth-keddy/" target="_blank" rel="noopener" aria-label="LinkedIn">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                <div class="social-links" role="list" aria-label="Social media links">
+                    <a href="https://www.linkedin.com/in/seth-keddy/" target="_blank" rel="noopener" aria-label="LinkedIn - Connect with Seth Keddy" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="LinkedIn icon">
+                            <title>LinkedIn</title>
                             <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                         </svg>
                     </a>
-                    <a href="https://x.com/sethkeddy" target="_blank" rel="noopener" aria-label="Twitter/X">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://x.com/sethkeddy" target="_blank" rel="noopener" aria-label="Twitter/X - Follow Seth Keddy" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Twitter/X icon">
+                            <title>Twitter/X</title>
                             <path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/>
                         </svg>
                     </a>
-                    <a href="https://github.com/kedster" target="_blank" rel="noopener" aria-label="GitHub">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://github.com/kedster" target="_blank" rel="noopener" aria-label="GitHub - View Seth Keddy's repositories" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="GitHub icon">
+                            <title>GitHub</title>
                             <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
                         </svg>
                     </a>
-                    <a href="https://peerlist.io/sethkeddy" target="_blank" rel="noopener" aria-label="Peerlist">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://peerlist.io/sethkeddy" target="_blank" rel="noopener" aria-label="Peerlist - Seth Keddy's professional profile" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Peerlist icon">
+                            <title>Peerlist</title>
                             <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 16.894a.5.5 0 0 1-.707 0L12 11.707l-5.187 5.187a.5.5 0 0 1-.707-.707L11.293 11 6.106 5.813a.5.5 0 0 1 .707-.707L12 10.293l5.187-5.187a.5.5 0 0 1 .707.707L12.707 11l5.187 5.187a.5.5 0 0 1 0 .707z"/>
                         </svg>
                     </a>
-                    <a href="https://kedster.github.io" target="_blank" rel="noopener" aria-label="Portfolio">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://kedster.github.io" target="_blank" rel="noopener" aria-label="Portfolio - Seth Keddy's personal website" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Portfolio icon">
+                            <title>Portfolio</title>
                             <path d="M12 0C5.374 0 0 5.373 0 12s5.374 12 12 12 12-5.373 12-12S18.626 0 12 0zm0 22C6.486 22 2 17.514 2 12S6.486 2 12 2s10 4.486 10 10-4.486 10-10 10zm.5-15h-1a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h1a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm0-3h-1c-.828 0-1.5.672-1.5 1.5S10.672 7 11.5 7h1c.828 0 1.5-.672 1.5-1.5S13.328 4 12.5 4z"/>
                         </svg>
                     </a>
-                    <a href="https://bio.snap-view.com" target="_blank" rel="noopener" aria-label="Bio">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://bio.snap-view.com" target="_blank" rel="noopener" aria-label="Bio - Seth Keddy's bio and links" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Bio link icon">
+                            <title>Bio</title>
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
                         </svg>
                     </a>
-                    <a href="https://dev.to/kedster" target="_blank" rel="noopener" aria-label="Dev.to">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://dev.to/kedster" target="_blank" rel="noopener" aria-label="Dev.to - Seth Keddy's developer blog" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Dev.to icon">
+                            <title>Dev.to</title>
                             <path d="M7.42 10.05c-.18-.16-.46-.23-.84-.23H6l.02 2.44.04 2.45c.56-.02.82-.11 1.02-.32.22-.23.32-.57.32-1.03s-.11-.8-.34-1.03-.48-.24-.84-.24v-.04zM23.18 9.45c-.16 0-.3.01-.44.05L20.5 9.5c-.18.01-.35.05-.51.12-.16.05-.3.13-.42.24-.11.1-.2.22-.26.37-.06.14-.09.3-.09.47v1.65c0 .36.07.68.21.95.14.26.34.49.58.66.24.18.52.31.84.37.32.07.65.1.98.1.33 0 .66-.03.98-.1.32-.06.6-.19.84-.37.24-.17.44-.4.58-.66.14-.27.21-.59.21-.95v-1.65c0-.17-.03-.33-.09-.47-.06-.15-.15-.27-.26-.37-.12-.11-.26-.19-.42-.24-.16-.07-.33-.11-.51-.12L23.62 9.5c-.14-.04-.28-.05-.44-.05zm-.62 2.61c0 .2-.04.38-.12.54-.08.16-.19.3-.33.4-.14.11-.3.19-.48.24-.18.05-.36.08-.54.08-.18 0-.36-.03-.54-.08-.18-.05-.34-.13-.48-.24-.14-.1-.25-.24-.33-.4-.08-.16-.12-.34-.12-.54v-1.52c0-.2.04-.38.12-.54.08-.16.19-.3.33-.4.14-.11.3-.19.48-.24.18-.05.36-.08.54-.08.18 0 .36.03.54.08.18.05.34.13.48.24.14.1.25.24.33.4.08.16.12.34.12.54v1.52zm-7.5-4.38h-3.12c-.28 0-.5-.01-.66-.02s-.28-.04-.36-.08c-.08-.05-.13-.11-.15-.2-.02-.1-.03-.22-.03-.37V4.13c0-.28-.01-.5-.02-.66s-.04-.28-.08-.36c-.05-.08-.11-.13-.2-.15-.1-.02-.22-.03-.37-.03H7.97c-.28 0-.5.01-.66.02-.16.01-.28.04-.36.08-.08.05-.13.11-.15.2-.02.1-.03.22-.03.37v15.18c0 .3.01.54.04.71.03.18.08.32.16.42.08.1.19.16.33.19.15.03.33.04.55.04h.62l.01-.05.05-6.95c0-.28.01-.5.02-.66s.04-.28.08-.36c.05-.08.11-.13.2-.15.1-.02.22-.03.37-.03h.62c.28 0 .5.01.66.02.16.01.28.04.36.08.08.05.13.11.15.2.02.1.03.22.03.37v6.95l.01.05h.62c.22 0 .4-.01.55-.04.14-.03.25-.09.33-.19.08-.1.13-.24.16-.42.03-.17.04-.41.04-.71V4.13c0-.15-.01-.27-.03-.37-.02-.09-.07-.15-.15-.2-.08-.04-.2-.07-.36-.08-.16-.01-.38-.02-.66-.02zm-1.25 6.07h-1.8c-.15 0-.27.01-.37.03-.09.02-.15.07-.2.15-.04.08-.07.2-.08.36-.01.16-.02.38-.02.66v.95c0 .28.01.5.02.66.01.16.04.28.08.36.05.08.11.13.2.15.1.02.22.03.37.03h1.8c.15 0 .27-.01.37-.03.09-.02.15-.07.2-.15.04-.08.07-.2.08-.36.01-.16.02-.38.02-.66v-.95c0-.28-.01-.5-.02-.66-.01-.16-.04-.28-.08-.36-.05-.08-.11-.13-.2-.15-.1-.02-.22-.03-.37-.03z"/>
                         </svg>
                     </a>
-                    <a href="https://app.daily.dev/sethkeddy" target="_blank" rel="noopener" aria-label="Daily.dev">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://app.daily.dev/sethkeddy" target="_blank" rel="noopener" aria-label="Daily.dev - Seth Keddy's developer community profile" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Daily.dev icon">
+                            <title>Daily.dev</title>
                             <path d="M5.45 17.29l-4.74 4.74a1 1 0 0 1-1.42-1.42l4.74-4.74a1 1 0 0 1 1.42 0 1 1 0 0 1 0 1.42z"/>
                             <circle cx="17" cy="7" r="5"/>
                             <path d="M22 17h-1.5v-1.5a.5.5 0 0 0-1 0V17H18a.5.5 0 0 0 0 1h1.5v1.5a.5.5 0 0 0 1 0V18H22a.5.5 0 0 0 0-1z"/>
                         </svg>
                     </a>
-                    <a href="https://medium.com/@sethkeddy" target="_blank" rel="noopener" aria-label="Medium">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://medium.com/@sethkeddy" target="_blank" rel="noopener" aria-label="Medium - Seth Keddy's articles and blog posts" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Medium icon">
+                            <title>Medium</title>
                             <path d="M13.54 12a6.8 6.8 0 01-6.77 6.82A6.8 6.8 0 010 12a6.8 6.8 0 016.77-6.82A6.8 6.8 0 0113.54 12zM20.96 12c0 3.54-1.51 6.42-3.38 6.42-1.87 0-3.39-2.88-3.39-6.42s1.52-6.42 3.39-6.42 3.38 2.88 3.38 6.42M24 12c0 3.17-.53 5.75-1.19 5.75-.66 0-1.19-2.58-1.19-5.75s.53-5.75 1.19-5.75C23.47 6.25 24 8.83 24 12z"/>
                         </svg>
                     </a>
-                    <a href="https://www.credly.com/users/seth-keddy" target="_blank" rel="noopener" aria-label="Credly">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://www.credly.com/users/seth-keddy" target="_blank" rel="noopener" aria-label="Credly - Seth Keddy's certifications and badges" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="Credly icon">
+                            <title>Credly</title>
                             <path d="M12 2L3.09 8.26l1.42 1.42L12 4.16l7.49 5.52 1.42-1.42L12 2zM12 6L7.64 9.27l1.42 1.42L12 8.84l2.94 1.85 1.42-1.42L12 6zm0 4L9.79 11.64l1.42 1.42L12 12.52l.79.54 1.42-1.42L12 10zm0 4a2 2 0 11-2 2 2 2 0 012-2z"/>
                         </svg>
                     </a>
-                    <a href="https://www.ratemyprofessors.com/professor/2694476" target="_blank" rel="noopener" aria-label="RateMyProfessors">
-                        <svg viewBox="0 0 24 24" fill="currentColor">
+                    <a href="https://www.ratemyprofessors.com/professor/2694476" target="_blank" rel="noopener" aria-label="RateMyProfessors - Seth Keddy's teaching profile" role="listitem">
+                        <svg viewBox="0 0 24 24" fill="currentColor" role="img" aria-label="RateMyProfessors icon">
+                            <title>RateMyProfessors</title>
                             <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm3.5 6L12 10.5 8.5 8 12 5.5 15.5 8zM7.5 11l2.5 2.5L7.5 16v-5zm4.5 6.5L9.5 16 12 13.5l2.5 2.5L12 17.5zm4.5-1.5l-2.5-2.5L16.5 11v5z"/>
                         </svg>
                     </a>
                 </div>
-            </div>
+            </section>
         </div>
         <div class="footer-bottom">
             <p>&copy; 2024 Logo Maker Pro. Created by Seth Keddy.</p>
